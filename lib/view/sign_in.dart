@@ -127,11 +127,13 @@ class _SignInScreenState extends State<SignInScreen> {
                           "Giriş Yap",
                           style: TextStyle(color: academyBlack),
                         )),
+                    /*
                     SizedBox(height: 15.0),
                     ElevatedButton(
                       onPressed: () {
                         // TODO: Handle login
                       },
+                      
                       child: Text('Google ile Devam Et'),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Color.fromARGB(210, 66, 131, 241),
@@ -143,6 +145,7 @@ class _SignInScreenState extends State<SignInScreen> {
                         ),
                       ),
                     ),
+                    */
                     TextButton(
                         onPressed: () {
                           Navigator.of(context).pushReplacement(
